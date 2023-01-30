@@ -6,6 +6,11 @@ div {
   box-sizing: border-box;
 }
 
+.pages {
+  background-color:cornsilk;
+  height: 100vh;
+}
+
 .list {
   padding-left: 20px;
   text-align: left;
