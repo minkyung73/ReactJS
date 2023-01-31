@@ -64,26 +64,3 @@ function App() {
 }
 
 export default App;
-
-
-/*
-import React from "react";
-import {Routes, Route, Link} from "react-router-dom"
-import Pytorch from "./pages/Pytorch";
-import Home from "./pages/Pytorch"
-
-function App() {
-  return (
-    <div className="App">
-      <nav>
-        <Link to="/">Pytorch</Link>
-      </nav>
-      <Routes>
-        <Route path="/" element={<Pytorch />} />
-      </Routes>
-    </div>
-  );
-}
-
-export default App;
-*/
