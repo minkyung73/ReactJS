@@ -6,6 +6,8 @@ import Login from './pages/Login';
 import About1 from './pages/About1';
 import About2 from './pages/About2';
 import ManualCounter from './pages/ManualCounter';
+import Table from './pages/Table';
+import { useSelector } from 'react-redux';
 
 const activeStyle = {
   color: 'red', 
@@ -20,6 +22,12 @@ const deactiveStyle = {
 function App() {
   const navigate = useNavigate();
   const [text, setText] = useState('');
+
+  let states = useSelector((state) => {
+    return state;
+  })
+
+  console.log(states);
 
   const location = useLocation();
   useEffect(() => {
@@ -56,9 +64,10 @@ function App() {
       <button type="button" onClick={goAbout1}>About1</button>
       <button type="button" onClick={goAbout2}>About2</button>
       <hr />
-      // useRef
+      // useRef & Fragment
       <p>
         <Link to ="/ref">ManualCounter</Link>
+        <Link to ="/table">Table</Link>
       </p>
       <hr />
       <Routes>
@@ -67,6 +76,7 @@ function App() {
         <Route path="/about1" element={<About1 />}></Route>
         <Route path="/about2" element={<About2 />}></Route>
         <Route path="/ref" element={<ManualCounter />}></Route>
+        <Route path="/table" element={<Table />}></Route>
       </Routes>
     </div>
   );
