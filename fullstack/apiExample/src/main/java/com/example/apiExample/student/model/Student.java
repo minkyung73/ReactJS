@@ -1,4 +1,4 @@
-package com.arjuncodes.studentsystem.model;
+package com.example.apiExample.student.model;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;

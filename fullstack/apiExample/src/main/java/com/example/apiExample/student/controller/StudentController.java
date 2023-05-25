@@ -1,7 +1,7 @@
-package com.arjuncodes.studentsystem.controller;
+package com.example.apiExample.student.controller;
 
-import com.arjuncodes.studentsystem.model.Student;
-import com.arjuncodes.studentsystem.service.StudentService;
+import com.example.apiExample.student.model.Student;
+import com.example.apiExample.student.service.StudentService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 

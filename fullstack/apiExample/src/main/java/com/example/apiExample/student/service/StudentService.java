@@ -1,6 +1,6 @@
-package com.arjuncodes.studentsystem.service;
+package com.example.apiExample.student.service;
 
-import com.arjuncodes.studentsystem.model.Student;
+import com.example.apiExample.student.model.Student;
 
 import java.util.List;
 

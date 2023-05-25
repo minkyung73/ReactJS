@@ -1,7 +1,8 @@
-package com.arjuncodes.studentsystem.service;
+package com.example.apiExample.student.service;
 
-import com.arjuncodes.studentsystem.model.Student;
-import com.arjuncodes.studentsystem.repository.StudentRepository;
+
+import com.example.apiExample.student.model.Student;
+import com.example.apiExample.student.repository.StudentRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
